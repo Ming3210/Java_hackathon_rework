@@ -21,7 +21,7 @@ public class EmployeeAppication {
             System.out.println("4. Remove Employee");
             System.out.println("5. Search Employee");
             System.out.println("6. Sort By?");
-            System.out.println("7. Exit");
+            System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
             switch (choice) {
@@ -43,7 +43,7 @@ public class EmployeeAppication {
                 case 6:
                     sortBy();
                     break;
-                case 7:
+                case 0:
                     System.out.println("Exiting...");
                     System.exit(0);
                     break;
